@@ -1,0 +1,158 @@
+body {
+    font-family: Montserrat;
+}
+nav {
+    margin-left: 0.75em;
+}
+div {
+    margin-bottom: 2ex;
+    padding-bottom: 0.25ex;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: Montserrat-Black;
+}
+h2{
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+h3{
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+p{
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+button {
+    margin-left: 0.35ex;
+}
+.big-heading {
+    font-family: Montserrat-Black;
+    size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+#title {
+    background-color: rgb(161, 223, 250);
+}
+.container-fluid {
+    padding: 3% 10%;
+}
+/* navigation bar */
+.navbar {
+    padding-top: 0em;
+    padding-bottom: 1.5em;
+}
+.navbar-brand {
+    font-family: Inter;
+    font-size: 1.75em;
+    font-weight:900;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+/* button */
+.butt {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    margin-left: 0.4em;
+}
+/* features */
+#features {
+    padding: 7% 15%;
+}
+.features {
+    padding: 0 2.5em;
+}
+/* icon */
+.icon {
+    color: rgb(161, 223, 250);
+    margin: 10%;
+}
+.icon:hover {
+    color: rgb(70, 200, 255);
+}
+/* Testimonials & press */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(161, 223, 250);
+    
+}
+.t-img {
+    width: 21rem;
+    height: 22rem;
+    position:relative;
+    left: 9rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+#press {
+    background-color: rgb(161, 223, 250);
+    text-align: center;
+    padding-bottom: 3%;
+    margin-bottom: 1.5rem;
+}
+.press-logo {
+   width: 15%;
+   height: 30%;
+   margin: 1rem 1rem 3rem; 
+}
+.test-c {
+    width: 100%;
+    height: 25rem;
+}
+.carousel-item {
+    width: 22rem;
+    height: 24rem;
+    position:relative;
+    left: 12.5rem;
+}
+.testimonial-text {
+    position: relative;
+    left: 10rem;
+    bottom: 6rem;
+    padding: 0.2rem 0rem;
+    font-size: medium;
+}
+.h5-t {
+    font-size:medium;
+}
+.rows{
+    margin: 1.75rem 10rem;
+}
+#pricing {
+    text-align: center;
+}
+.b-size {
+    width: 100%;
+}
+/* @media (min-width: 480px) {
+    #title {
+        text-align: center;
+    }
+    .t-img {
+        position: static;
+    }
+} */
+/* call to action */
+#cta {
+    background-color: rgb(161, 223, 250);
+    text-align: center;
+    padding: 7% 15%;
+}
+/* footer */
+#footer {
+    text-align: center;
+    padding: 4% 15%;
+}
+.f-icon {
+    margin: 20px 10px;
+}
